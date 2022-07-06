@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0%;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.head-section {
+  background-image: url(donate-images/banner\ image\ 5.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.head-section h1 {
+  line-height: 10px;
+  font-size: 50px;
+  font-weight: 700px;
+}
+
+.head-section a {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  background-color: chocolate;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+.head-section p {
+  color: rgb(170, 238, 68)
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dv-1 h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.dv-1 {
+  text-align: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+.dv-2 {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.dv {
+  background-color: gainsboro;
+  padding: 30px 40px;
+  border-radius: 5px;
+}
+
+#dv-5 {
+  border: 2px solid red;
+  background-color: rgba(240, 171, 159, 0.603);
+}
+
+.dv-3 {
+  font-family: inherit;
+  width: 40%;
+  border: 5px;
+  border-bottom: 1px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  padding: 7px 0px;
+  background: transparent;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 60%;
+  margin: 0;
+}
+
+.mid-section a {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border-radius: 2pxpx;
+  font-weight: 700;
+  margin-top: 30%;
+}
+
+.dv-4 {
+  margin-top: 3%;
+}
+
+.our-donate h1 {
+  line-height: 10px;
+  font-size: 50px;
+  font-weight: 700px;
+}
+
+.our-donate {
+  text-align: center;
+  margin-top: 10%;
+  line-height: 30px;
+  margin-bottom: 1%;
+}
+
+span {
+  color: green;
+}
+
+.od-plan {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  border: 5px solid black;
+  background-color: lightblue;
+  box-shadow: 0px 0px 15px black;
+}
+
+.od-plan-shelter {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  border: 5px solid black;
+  background-color: rgb(245, 141, 99);
+  box-shadow: 0px 0px 15px black;
+}
+
+.od-plan-edu {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  border: 5px solid black;
+  background-color: rgb(201, 252, 105);
+  box-shadow: 0px 0px 15px black;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  width: 30pxpx;
+}
+
+.updates {
+  text-align: center;
+}
+
+.updates h1 {
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+.box-up {
+  width: 50%;
+  margin: 20px;
+  padding: 60px 45px;
+  background-color: rgb(245, 141, 99);
+}
+
+.mother {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-1 {
+  text-align: center;
+}
+
+.item-1 h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.item-2 {
+  background-color: coral;
+  width: 40%;
+  padding: 50px 150px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.item-2 input[type="text"] {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.363);
+}
+.item-2 input[type="submit"] {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  position: absolute;
+  background-color: rgba(243, 24, 24, 0.562);
+}
+.email {
+  border: 0;
+  padding: 10px;
+  background-color: rgba(214, 204, 204, 0.678);
+  border-radius: 4px;
+}
+
+.subscribe {
+  border: 0;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+}
+
+footer h2 {
+  color: #FF5959;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 30px;
+}
